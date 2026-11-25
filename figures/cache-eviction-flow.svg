@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+  <title id="title">三级 KV Cache 的回收与备份</title>
+  <desc id="desc">DRAM 空间不足时先释放重复副本，再尝试向 WIN 迁移稳定热块，最后从 DRAM 驻留前沿回收。WIN 空间不足时只处理符合冷阈值和最短驻留时间的未占用前沿块。两层均可向 ASU 备份完整块。示意路径上，本地冷淘汰从块 3 往块 1 收缩，ASU 备份从块 1 往块 3 逐块确认和写入。</desc>
+  <defs>
+    <marker id="flow" markerWidth="8" markerHeight="8" refX="7.5" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#577b9f"/></marker>
+    <marker id="cold" markerWidth="8" markerHeight="8" refX="7.5" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#9a572e"/></marker>
+    <marker id="backup" markerWidth="8" markerHeight="8" refX="7.5" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#6750a4"/></marker>
+    <style>
+      text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#162c45}
+      .muted{fill:#496079} .title{font-size:32px;font-weight:700}
+      .heading{font-size:25px;font-weight:700} .label{font-size:21px;font-weight:700}
+      .body{font-size:18px} .small{font-size:16px}
+      .flow{fill:none;stroke:#577b9f;stroke-width:2.5;marker-end:url(#flow)}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="938" rx="22" fill="#f6f8fc" stroke="#d8e2ef"/>
+  <text class="title" x="40" y="56">三级 KV Cache 的回收与备份</text>
+  <text class="body muted" x="40" y="88">单个 DP rank 的 DRAM 与 WIN 独立回收，ASU 全局共享</text>
+
+  <rect x="38" y="112" width="505" height="405" rx="18" fill="#eaf2fc" stroke="#c5d8ee"/>
+  <rect x="657" y="112" width="505" height="405" rx="18" fill="#eaf5f1" stroke="#badbd2"/>
+  <text class="heading" x="61" y="149">HHM-DRAM 空间不足</text>
+  <text class="small muted" x="61" y="176">依次处理，腾够本步所需空间就停止</text>
+  <text class="heading" x="680" y="149">HHM-WIN 空间不足</text>
+  <text class="small muted" x="680" y="176">从 WIN 自己的驻留前沿选择冷块</text>
+
+  <rect x="60" y="194" width="461" height="76" rx="10" fill="#fff" stroke="#cedeed"/>
+  <text class="label" x="78" y="224">1. 释放重复副本</text>
+  <text class="small muted" x="78" y="250">已有可用副本，且 DRAM 这份可以安全释放</text>
+  <path class="flow" d="M290 270v15"/>
+  <rect x="60" y="287" width="461" height="93" rx="10" fill="#fff" stroke="#cedeed"/>
+  <text class="label" x="78" y="317">2. 将稳定热块迁到 WIN</text>
+  <text class="small muted" x="78" y="342">完整块达到热准入阈值，可选树的内部节点</text>
+  <text class="small muted" x="78" y="365">WIN 放不下时先尝试回收，写成功后释放源块</text>
+  <path class="flow" d="M290 380v15"/>
+  <rect x="60" y="397" width="461" height="97" rx="10" fill="#fff" stroke="#cedeed"/>
+  <text class="label" x="78" y="427">3. 回收 DRAM 前沿块</text>
+  <text class="small muted" x="78" y="453">有共享价值且满足条件的块，备份到 ASU 后释放</text>
+  <text class="small muted" x="78" y="477">无需继续保留的普通缓存可以丢弃</text>
+
+  <rect x="679" y="194" width="461" height="76" rx="10" fill="#fff" stroke="#cae2da"/>
+  <text class="label" x="697" y="224">先检查冷淘汰资格</text>
+  <text class="small muted" x="697" y="250">已降至冷阈值、驻留满 T<tspan baseline-shift="sub" font-size="12">H</tspan>、源块未被占用</text>
+  <path class="flow" d="M909 270v15"/>
+  <path class="flow" d="M1140 232h11v214h-10"/>
+  <rect x="679" y="287" width="461" height="93" rx="10" fill="#fff" stroke="#cae2da"/>
+  <text class="label" x="697" y="317">无合格冷块、仍放不下或预算不足</text>
+  <text class="small muted" x="697" y="344">跳过该块迁移，继续按第 3 步回收 DRAM</text>
+  <path class="flow" d="M521 342h78V233h56"/>
+  <text class="small muted" x="595" y="362" text-anchor="middle">WIN 空间不足</text>
+  <rect x="679" y="397" width="461" height="97" rx="10" fill="#fff" stroke="#cae2da"/>
+  <text class="label" x="697" y="423">有合格冷块就尝试回收</text>
+  <text class="small muted" x="697" y="445">已有 ASU 副本就释放，有共享价值则备份</text>
+  <text class="small muted" x="697" y="466">其余可安全丢弃的普通缓存直接释放</text>
+  <text class="small muted" x="697" y="487">腾够空间且预算允许后，回到第 2 步写入 WIN</text>
+
+  <path d="M290 494v82 M909 494v82" fill="none" stroke="#6750a4" stroke-width="2.5" marker-end="url(#backup)"/>
+  <text class="small muted" x="303" y="549">按需整块备份</text>
+  <text class="small muted" x="922" y="549">按需整块备份</text>
+  <rect x="38" y="578" width="1124" height="120" rx="18" fill="#f0edfa" stroke="#d6c9ed"/>
+  <text class="heading" x="61" y="615">ASU 全局 KV 池</text>
+  <text class="body muted" x="61" y="646">从前缀开头逐块补写并锁定，补写或锁定失败时停止该路径</text>
+  <text class="body muted" x="61" y="674">路径备份结束后解锁，后续读取以 ASU 实际连续命中为准</text>
+
+  <rect x="38" y="721" width="1124" height="192" rx="18" fill="#fff" stroke="#d8e2ef"/>
+  <text class="heading" x="61" y="757">同一条前缀路径，两种处理方向</text>
+  <text x="61" y="800" class="body" style="fill:#9a572e">同层冷淘汰</text>
+  <text x="61" y="839" class="small muted">各分支先回收同层最后一块</text>
+  <text x="61" y="881" class="body" style="fill:#6750a4">ASU 路径备份</text>
+  <path d="M1011 793H360" fill="none" stroke="#9a572e" stroke-width="2.5" marker-end="url(#cold)"/>
+  <path d="M360 876H1011" fill="none" stroke="#6750a4" stroke-width="2.5" marker-end="url(#backup)"/>
+  <path d="M540 833H602 M762 833H824" class="flow"/>
+  <g fill="#f1f5fb" stroke="#c9d7e8">
+    <rect x="380" y="814" width="160" height="38" rx="8"/>
+    <rect x="602" y="814" width="160" height="38" rx="8"/>
+    <rect x="824" y="814" width="160" height="38" rx="8"/>
+  </g>
+  <g text-anchor="middle" class="body">
+    <text x="460" y="839">块 1（靠根）</text><text x="682" y="839">块 2</text><text x="904" y="839">块 3（末尾）</text>
+  </g>
+</svg>

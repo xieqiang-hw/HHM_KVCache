@@ -1,0 +1,23 @@
+Overlay 16x (segment): 10,000 requests selected after overlay, 16 active segments, 10.76x selected arrival density before time scaling
+Replay [------------------------]  0.00%  0/10,000 completed  |  0 arrived  |  elapsed 00:00:00
+Replay [##----------------------]  8.70%  870/10,000 completed  |  872 arrived  |  elapsed 00:00:05
+Replay [####--------------------] 17.37%  1,737/10,000 completed  |  1,740 arrived  |  elapsed 00:00:10
+Replay [#####-------------------] 24.80%  2,480/10,000 completed  |  2,482 arrived  |  elapsed 00:00:15
+Replay [#######-----------------] 31.09%  3,109/10,000 completed  |  3,112 arrived  |  elapsed 00:00:20
+Replay [#########---------------] 39.23%  3,923/10,000 completed  |  3,924 arrived  |  elapsed 00:00:25
+Replay [###########-------------] 46.20%  4,620/10,000 completed  |  4,622 arrived  |  elapsed 00:00:30
+Replay [############------------] 53.86%  5,386/10,000 completed  |  5,387 arrived  |  elapsed 00:00:35
+Replay [##############----------] 59.22%  5,922/10,000 completed  |  5,923 arrived  |  elapsed 00:00:40
+Replay [###############---------] 64.66%  6,466/10,000 completed  |  6,468 arrived  |  elapsed 00:00:45
+Replay [################--------] 69.40%  6,940/10,000 completed  |  6,942 arrived  |  elapsed 00:00:50
+Replay [##################------] 75.85%  7,585/10,000 completed  |  7,587 arrived  |  elapsed 00:00:55
+Replay [###################-----] 82.96%  8,296/10,000 completed  |  8,299 arrived  |  elapsed 00:01:00
+Replay [#####################---] 88.90%  8,890/10,000 completed  |  8,891 arrived  |  elapsed 00:01:05
+Replay [######################--] 94.10%  9,410/10,000 completed  |  9,414 arrived  |  elapsed 00:01:10
+Replay [#######################-] 98.92%  9,892/10,000 completed  |  9,894 arrived  |  elapsed 00:01:15
+Replay [########################] 100.00%  10,000/10,000 completed  |  10,000 arrived  |  elapsed 00:01:16
+Completed 10,000/10,000 requests
+HHM hit rate: 96.57%
+WIN / ASU bytes written: 13,457,600,000 / 2,254,400,000
+Summary: C:\Users\xieqiang\Documents\ChatGPT\HHM缓存管理仿真\HHM_KVCache\hhm_kvcache_sim\results\balanced_routing\16x_10000\summary.json
+Chart: C:\Users\xieqiang\Documents\ChatGPT\HHM缓存管理仿真\HHM_KVCache\hhm_kvcache_sim\results\balanced_routing\16x_10000\timeseries.svg

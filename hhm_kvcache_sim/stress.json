@@ -1,0 +1,9 @@
+{
+  "machines": 1,
+  "ranks_per_machine": 2,
+  "dram_bytes": 6000000000,
+  "win_bytes": 600000000,
+  "asu_devices": 2,
+  "asu_device_bytes": 900000000,
+  "time_scale": 0.01
+}

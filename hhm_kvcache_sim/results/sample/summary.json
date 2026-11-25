@@ -1,0 +1,668 @@
+{
+  "simulated_seconds": 71445.32799999982,
+  "block_tokens": 16,
+  "counts": {
+    "requests": 256,
+    "prompt_tokens": 8040646,
+    "ideal_hit_tokens": 7757776,
+    "dram_hit_tokens": 7711024,
+    "win_hit_tokens": 0,
+    "asu_hit_tokens": 0,
+    "win_rolling_read_bytes": 0,
+    "machine_forwards": 13682,
+    "exposed_transfer_seconds": 0.0,
+    "completed": 256,
+    "output_tokens": 54749,
+    "win_write_bytes": 0,
+    "asu_write_bytes": 0,
+    "asu_read_bytes": 0,
+    "dram_duplicate_releases": 0,
+    "dram_frontier_evictions": 0,
+    "win_evictions": 0,
+    "win_promotions": 0,
+    "explicit_backup_failures": 0
+  },
+  "asu_evictions": 0,
+  "hit_rates": {
+    "hhm": 0.9590055326400391,
+    "dram": 0.9590055326400391,
+    "win": 0.0,
+    "asu": 0.0,
+    "asu_given_hhm_miss": 0.0,
+    "ideal": 0.9648199908315824
+  },
+  "ttft": {
+    "samples": 256,
+    "mean_ms": 1198.7765624987294,
+    "p90_ms": 967.4999999988358
+  },
+  "tpot": {
+    "samples": 256,
+    "mean_ms": 11.781515235029815,
+    "p90_ms": 11.732000000047265
+  },
+  "te2e": {
+    "samples": 256,
+    "mean_ms": 3558.169335798438,
+    "p90_ms": 6757.70000000648
+  },
+  "ranks": [
+    {
+      "machine": 0,
+      "rank": 0,
+      "forwards": 13487,
+      "decode_steps": 13251,
+      "mean_decode_batch": 1.0255075088672554,
+      "peak_dram_blocks": 20929,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 1,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 2,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 3,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 4,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 5,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 6,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 0,
+      "rank": 7,
+      "forwards": 13487,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 0,
+      "forwards": 195,
+      "decode_steps": 186,
+      "mean_decode_batch": 1.0,
+      "peak_dram_blocks": 203,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 1,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 2,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 3,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 4,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 5,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 6,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 1,
+      "rank": 7,
+      "forwards": 195,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 2,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 3,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 4,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 5,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 6,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 0,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 1,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 2,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 3,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 4,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 5,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 6,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    },
+    {
+      "machine": 7,
+      "rank": 7,
+      "forwards": 0,
+      "decode_steps": 0,
+      "mean_decode_batch": null,
+      "peak_dram_blocks": 0,
+      "peak_win_blocks": 0
+    }
+  ],
+  "config": {
+    "machines": 8,
+    "ranks_per_machine": 8,
+    "dram_bytes": 24000000000,
+    "win_bytes": 211000000000,
+    "asu_devices": 12,
+    "asu_device_bytes": 64000000000000,
+    "asu_device_bytes_per_s": 40000000000,
+    "win_bytes_per_s": 800000000000,
+    "dram_bytes_per_s": 6400000000000,
+    "kv_bytes_per_token": 50000,
+    "max_num_seqs": 64,
+    "max_num_batched_tokens": 32768,
+    "prefill_tokens_per_s": 2000,
+    "mtp_probabilities": [
+      0.05,
+      0.1,
+      0.2,
+      0.25,
+      0.25,
+      0.15
+    ],
+    "mtp_width": 6,
+    "tau_s": 60,
+    "theta_asu": 0.5,
+    "theta_cold": 1.0,
+    "theta_hot": 1.8,
+    "min_win_residence_s": 100,
+    "maintenance_budget_s": 0.05,
+    "transfer_overlap": 0.8,
+    "time_scale": 1.0,
+    "seed": 0
+  },
+  "trace": "C:\\Users\\xieqiang\\Documents\\ChatGPT\\HHM缓存管理仿真\\HHM_KVCache\\data\\claude-code-main-glm52-128k-exact-sample\\requests.jsonl",
+  "skip": 0,
+  "limit": null,
+  "timeseries": {
+    "interval_seconds": 300,
+    "file": "timeseries.csv",
+    "chart": "timeseries.svg"
+  }
+}

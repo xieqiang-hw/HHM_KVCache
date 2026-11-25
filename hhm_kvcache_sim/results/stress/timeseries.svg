@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-label="HHM cache simulation time series, six panels">
+<rect width="1440" height="820" fill="#f4f7fb"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#152a44">
+<text x="35" y="46" font-size="30" font-weight="700">HHM cache simulation</text>
+<text x="35" y="74" font-size="16" fill="#526984">Elapsed simulation time · 1 min per window</text>
+<rect x="35" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="56" y="126" font-size="21" font-weight="700">Prefix cache hit rate</text>
+<text x="56" y="154" font-size="13" fill="#526984">%</text>
+<path d="M100 177h20" stroke="#175da2" stroke-width="2.6"/><text x="125" y="181" font-size="12">HHM</text>
+<path d="M165 177h20" stroke="#087f72" stroke-width="2.6"/><text x="190" y="181" font-size="12">ASU | HHM miss</text>
+<path d="M307 177h20" stroke="#7755a4" stroke-width="2.6" stroke-dasharray="6 3"/><text x="332" y="181" font-size="12">Ideal</text>
+<path d="M100 369.00H455 M100.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="100.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M100 326.75H455 M188.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="330.75" text-anchor="end" font-size="12" fill="#526984">25</text>
+<text x="188.75" y="389" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M100 284.50H455 M277.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="288.50" text-anchor="end" font-size="12" fill="#526984">50</text>
+<text x="277.50" y="389" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M100 242.25H455 M366.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="246.25" text-anchor="end" font-size="12" fill="#526984">75</text>
+<text x="366.25" y="389" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M100 200.00H455 M455.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="204.00" text-anchor="end" font-size="12" fill="#526984">100</text>
+<text x="455.00" y="389" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M346.71 229.42L370.21 210.84" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="111.75" cy="246.07" r="2.6" fill="#175da2"/>
+<circle cx="158.74" cy="221.47" r="2.6" fill="#175da2"/>
+<path d="M346.71 369.00L370.21 369.00" fill="none" stroke="#087f72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="111.75" cy="369.00" r="2.6" fill="#087f72"/>
+<circle cx="158.74" cy="369.00" r="2.6" fill="#087f72"/>
+<path d="M346.71 207.74L370.21 205.92" fill="none" stroke="#7755a4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<circle cx="111.75" cy="211.43" r="2.6" fill="#7755a4"/>
+<circle cx="158.74" cy="202.85" r="2.6" fill="#7755a4"/>
+<rect x="497" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="518" y="126" font-size="21" font-weight="700">Decode batch size</text>
+<text x="518" y="154" font-size="13" fill="#526984">seqs / rank</text>
+<path d="M562 177h20" stroke="#175da2" stroke-width="2.6"/><text x="587" y="181" font-size="12">Mean on active decode steps</text>
+<path d="M562 369.00H917 M562.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="562.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M562 326.75H917 M650.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="330.75" text-anchor="end" font-size="12" fill="#526984">10</text>
+<text x="650.75" y="389" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M562 284.50H917 M739.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="288.50" text-anchor="end" font-size="12" fill="#526984">20</text>
+<text x="739.50" y="389" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M562 242.25H917 M828.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="246.25" text-anchor="end" font-size="12" fill="#526984">30</text>
+<text x="828.25" y="389" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M562 200.00H917 M917.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="204.00" text-anchor="end" font-size="12" fill="#526984">40</text>
+<text x="917.00" y="389" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M573.75 361.57L597.24 348.16L620.74 364.77L644.24 334.82 M808.71 256.93L832.21 282.60L855.70 333.93L879.20 351.81L902.70 351.49L915.72 364.77" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="959" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="980" y="126" font-size="21" font-weight="700">Cluster queued prefill</text>
+<text x="980" y="154" font-size="13" fill="#526984">tokens</text>
+<path d="M1024 177h20" stroke="#087f72" stroke-width="2.6"/><text x="1049" y="181" font-size="12">Time-weighted mean</text>
+<path d="M1194 177h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="1219" y="181" font-size="12">Peak</text>
+<path d="M1024 369.00H1379 M1024.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="1024.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M1024 326.75H1379 M1112.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="330.75" text-anchor="end" font-size="12" fill="#526984">2M</text>
+<text x="1112.75" y="389" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M1024 284.50H1379 M1201.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="288.50" text-anchor="end" font-size="12" fill="#526984">4M</text>
+<text x="1201.50" y="389" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M1024 242.25H1379 M1290.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="246.25" text-anchor="end" font-size="12" fill="#526984">6M</text>
+<text x="1290.25" y="389" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M1024 200.00H1379 M1379.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="204.00" text-anchor="end" font-size="12" fill="#526984">8M</text>
+<text x="1379.00" y="389" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M1035.75 366.50L1059.24 368.94L1082.74 359.23L1106.24 366.14L1129.73 369.00L1153.23 369.00L1176.73 369.00L1200.22 369.00L1223.72 369.00L1247.22 369.00L1270.71 358.17L1294.21 316.48L1317.70 261.53L1341.20 282.13L1364.70 360.04L1377.72 369.00" fill="none" stroke="#087f72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1035.75 363.21L1059.24 367.34L1082.74 346.61L1106.24 355.56L1129.73 369.00L1153.23 369.00L1176.73 369.00L1200.22 369.00L1223.72 369.00L1247.22 369.00L1270.71 353.90L1294.21 251.40L1317.70 253.92L1341.20 266.84L1364.70 328.20L1377.72 369.00" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<rect x="35" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="56" y="471" font-size="21" font-weight="700">TTFT</text>
+<text x="56" y="499" font-size="13" fill="#526984">s</text>
+<path d="M100 522h20" stroke="#175da2" stroke-width="2.6"/><text x="125" y="526" font-size="12">Mean</text>
+<path d="M172 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="197" y="526" font-size="12">P90</text>
+<path d="M100 714.00H455 M100.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="100.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M100 671.75H455 M188.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="675.75" text-anchor="end" font-size="12" fill="#526984">50</text>
+<text x="188.75" y="734" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M100 629.50H455 M277.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="633.50" text-anchor="end" font-size="12" fill="#526984">100</text>
+<text x="277.50" y="734" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M100 587.25H455 M366.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="591.25" text-anchor="end" font-size="12" fill="#526984">150</text>
+<text x="366.25" y="734" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M100 545.00H455 M455.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="549.00" text-anchor="end" font-size="12" fill="#526984">200</text>
+<text x="455.00" y="734" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M346.71 681.33L370.21 629.15" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="111.75" cy="693.83" r="2.6" fill="#175da2"/>
+<circle cx="158.74" cy="681.18" r="2.6" fill="#175da2"/>
+<path d="M346.71 661.10L370.21 585.08" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<circle cx="111.75" cy="677.97" r="2.6" fill="#b2542a"/>
+<circle cx="158.74" cy="665.77" r="2.6" fill="#b2542a"/>
+<rect x="497" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="518" y="471" font-size="21" font-weight="700">TPOT</text>
+<text x="518" y="499" font-size="13" fill="#526984">ms</text>
+<path d="M562 522h20" stroke="#175da2" stroke-width="2.6"/><text x="587" y="526" font-size="12">Mean</text>
+<path d="M634 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="659" y="526" font-size="12">P90</text>
+<path d="M562 714.00H917 M562.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="562.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M562 671.75H917 M650.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="675.75" text-anchor="end" font-size="12" fill="#526984">500</text>
+<text x="650.75" y="734" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M562 629.50H917 M739.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="633.50" text-anchor="end" font-size="12" fill="#526984">1k</text>
+<text x="739.50" y="734" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M562 587.25H917 M828.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="591.25" text-anchor="end" font-size="12" fill="#526984">1.5k</text>
+<text x="828.25" y="734" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M562 545.00H917 M917.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="549.00" text-anchor="end" font-size="12" fill="#526984">2k</text>
+<text x="917.00" y="734" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M808.71 686.27L832.21 706.93" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="573.75" cy="693.62" r="2.6" fill="#175da2"/>
+<circle cx="620.74" cy="680.33" r="2.6" fill="#175da2"/>
+<path d="M808.71 659.20L832.21 702.02" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<circle cx="573.75" cy="656.45" r="2.6" fill="#b2542a"/>
+<circle cx="620.74" cy="628.25" r="2.6" fill="#b2542a"/>
+<rect x="959" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="980" y="471" font-size="21" font-weight="700">TE2E</text>
+<text x="980" y="499" font-size="13" fill="#526984">s</text>
+<path d="M1024 522h20" stroke="#175da2" stroke-width="2.6"/><text x="1049" y="526" font-size="12">Mean</text>
+<path d="M1096 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="1121" y="526" font-size="12">P90</text>
+<path d="M1024 714.00H1379 M1024.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="1024.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M1024 671.75H1379 M1112.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="675.75" text-anchor="end" font-size="12" fill="#526984">50</text>
+<text x="1112.75" y="734" text-anchor="middle" font-size="12" fill="#526984">3.78</text>
+<path d="M1024 629.50H1379 M1201.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="633.50" text-anchor="end" font-size="12" fill="#526984">100</text>
+<text x="1201.50" y="734" text-anchor="middle" font-size="12" fill="#526984">7.55</text>
+<path d="M1024 587.25H1379 M1290.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="591.25" text-anchor="end" font-size="12" fill="#526984">150</text>
+<text x="1290.25" y="734" text-anchor="middle" font-size="12" fill="#526984">11.3</text>
+<path d="M1024 545.00H1379 M1379.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="549.00" text-anchor="end" font-size="12" fill="#526984">200</text>
+<text x="1379.00" y="734" text-anchor="middle" font-size="12" fill="#526984">15.1</text>
+<path d="M1270.71 636.73L1294.21 617.32" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1035.75" cy="671.76" r="2.6" fill="#175da2"/>
+<circle cx="1082.74" cy="661.00" r="2.6" fill="#175da2"/>
+<path d="M1270.71 584.66L1294.21 580.34" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<circle cx="1035.75" cy="664.07" r="2.6" fill="#b2542a"/>
+<circle cx="1082.74" cy="653.10" r="2.6" fill="#b2542a"/>
+</g></svg>

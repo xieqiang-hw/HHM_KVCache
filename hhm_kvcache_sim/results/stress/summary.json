@@ -1,0 +1,110 @@
+{
+  "simulated_seconds": 906.5230550000375,
+  "block_tokens": 16,
+  "counts": {
+    "requests": 256,
+    "prompt_tokens": 8040646,
+    "ideal_hit_tokens": 7757776,
+    "dram_hit_tokens": 7284384,
+    "win_hit_tokens": 0,
+    "asu_hit_tokens": 0,
+    "win_rolling_read_bytes": 0,
+    "machine_forwards": 2295,
+    "exposed_transfer_seconds": 0.0,
+    "completed": 256,
+    "output_tokens": 54749,
+    "win_write_bytes": 744000000,
+    "win_promotions": 930,
+    "dram_frontier_evictions": 8957,
+    "asu_write_bytes": 3228800000,
+    "dram_duplicate_releases": 751,
+    "asu_read_bytes": 0,
+    "win_evictions": 0,
+    "explicit_backup_failures": 0
+  },
+  "asu_evictions": 1786,
+  "hit_rates": {
+    "hhm": 0.905945119334939,
+    "dram": 0.905945119334939,
+    "win": 0.0,
+    "asu": 0.0,
+    "asu_given_hhm_miss": 0.0,
+    "ideal": 0.9648199908315824
+  },
+  "ttft": {
+    "samples": 256,
+    "mean_ms": 60273.85400390692,
+    "p90_ms": 140221.8250000035
+  },
+  "tpot": {
+    "samples": 256,
+    "mean_ms": 238.14146088558482,
+    "p90_ms": 562.259999999992
+  },
+  "te2e": {
+    "samples": 256,
+    "mean_ms": 86446.87890625086,
+    "p90_ms": 153753.0950000032
+  },
+  "ranks": [
+    {
+      "machine": 0,
+      "rank": 0,
+      "forwards": 2295,
+      "decode_steps": 1364,
+      "mean_decode_batch": 6.250733137829912,
+      "peak_dram_blocks": 3453,
+      "peak_win_blocks": 180
+    },
+    {
+      "machine": 0,
+      "rank": 1,
+      "forwards": 2295,
+      "decode_steps": 1198,
+      "mean_decode_batch": 4.365609348914858,
+      "peak_dram_blocks": 7294,
+      "peak_win_blocks": 750
+    }
+  ],
+  "config": {
+    "machines": 1,
+    "ranks_per_machine": 2,
+    "dram_bytes": 6000000000,
+    "win_bytes": 600000000,
+    "asu_devices": 2,
+    "asu_device_bytes": 900000000,
+    "asu_device_bytes_per_s": 40000000000,
+    "win_bytes_per_s": 800000000000,
+    "dram_bytes_per_s": 6400000000000,
+    "kv_bytes_per_token": 50000,
+    "max_num_seqs": 64,
+    "max_num_batched_tokens": 32768,
+    "prefill_tokens_per_s": 2000,
+    "mtp_probabilities": [
+      0.05,
+      0.1,
+      0.2,
+      0.25,
+      0.25,
+      0.15
+    ],
+    "mtp_width": 6,
+    "tau_s": 60,
+    "theta_asu": 0.5,
+    "theta_cold": 1.0,
+    "theta_hot": 1.8,
+    "min_win_residence_s": 100,
+    "maintenance_budget_s": 0.05,
+    "transfer_overlap": 0.8,
+    "time_scale": 0.01,
+    "seed": 0
+  },
+  "trace": "C:\\Users\\xieqiang\\Documents\\ChatGPT\\HHM缓存管理仿真\\HHM_KVCache\\data\\claude-code-main-glm52-128k-exact-sample\\requests.jsonl",
+  "skip": 0,
+  "limit": null,
+  "timeseries": {
+    "interval_seconds": 60,
+    "file": "timeseries.csv",
+    "chart": "timeseries.svg"
+  }
+}
