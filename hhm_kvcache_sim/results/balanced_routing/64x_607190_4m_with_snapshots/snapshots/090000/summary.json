@@ -1,0 +1,385 @@
+{
+  "selection_order": "arrival",
+  "prefix": {
+    "complete": true,
+    "counts": {
+      "admitted": 90000,
+      "completed": 90000,
+      "requests": 90000,
+      "prompt_tokens": 4020483624,
+      "ideal_hit_tokens": 3948401584,
+      "admitted_prompt_tokens": 4020483624,
+      "dram_hit_tokens": 3072856672,
+      "win_hit_tokens": 758416256,
+      "asu_hit_tokens": 60737440,
+      "output_tokens": 22194995
+    },
+    "hit_rates": {
+      "hhm": 0.9529383244168638,
+      "dram": 0.7643002582218701,
+      "win": 0.18863806619499365,
+      "asu": 0.015106998480837488,
+      "asu_given_hhm_miss": 0.3210042628879712,
+      "ideal": 0.9820713011813526
+    },
+    "ttft": {
+      "samples": 90000,
+      "mean_ms": 1934.871578213165,
+      "p90_ms": 5602.999999999156
+    },
+    "tpot": {
+      "samples": 90000,
+      "mean_ms": 26.277348721976644,
+      "p90_ms": 31.980419580437367
+    },
+    "te2e": {
+      "samples": 90000,
+      "mean_ms": 6480.338651615621,
+      "p90_ms": 16843.10000001642
+    }
+  },
+  "replay": {
+    "simulated_seconds": 49719.33149999953,
+    "block_tokens": 16,
+    "counts": {
+      "requests": 90028,
+      "prompt_tokens": 4021370183,
+      "ideal_hit_tokens": 3949278352,
+      "dram_hit_tokens": 3073662240,
+      "win_hit_tokens": 758483232,
+      "asu_hit_tokens": 60738464,
+      "win_rolling_read_bytes": 2289192269600000,
+      "machine_forwards": 2581007,
+      "exposed_transfer_seconds": 0.08842899723334645,
+      "completed": 90025,
+      "output_tokens": 22197032,
+      "win_write_bytes": 1137090400000,
+      "win_promotions": 1421363,
+      "dram_frontier_evictions": 5881004,
+      "asu_write_bytes": 553465600000,
+      "dram_duplicate_releases": 4512680,
+      "asu_read_bytes": 3036923200000,
+      "win_evictions": 0,
+      "explicit_backup_failures": 0
+    },
+    "asu_evictions": 0,
+    "hit_rates": {
+      "hhm": 0.9529452145937891,
+      "dram": 0.7643320808896543,
+      "win": 0.1886131337041348,
+      "asu": 0.015103922602491729,
+      "asu_given_hhm_miss": 0.32098589914083686,
+      "ideal": 0.9820728190344769
+    },
+    "ttft": {
+      "samples": 90025,
+      "mean_ms": 1934.4785741647477,
+      "p90_ms": 5602.600000023813
+    },
+    "tpot": {
+      "samples": 90025,
+      "mean_ms": 26.273473598133133,
+      "p90_ms": 31.978260869547505
+    },
+    "te2e": {
+      "samples": 90025,
+      "mean_ms": 6478.976934689275,
+      "p90_ms": 16840.725000007296
+    },
+    "ranks": [
+      {
+        "machine": 0,
+        "rank": 0,
+        "forwards": 672362,
+        "decode_steps": 136773,
+        "mean_decode_batch": 1.10527662623471,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 38685
+      },
+      {
+        "machine": 0,
+        "rank": 1,
+        "forwards": 672362,
+        "decode_steps": 175511,
+        "mean_decode_batch": 1.149021998621169,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 50034
+      },
+      {
+        "machine": 0,
+        "rank": 2,
+        "forwards": 672362,
+        "decode_steps": 141426,
+        "mean_decode_batch": 1.1358661066564846,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 46646
+      },
+      {
+        "machine": 0,
+        "rank": 3,
+        "forwards": 672362,
+        "decode_steps": 157651,
+        "mean_decode_batch": 1.1548800832218,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 45328
+      },
+      {
+        "machine": 0,
+        "rank": 4,
+        "forwards": 672362,
+        "decode_steps": 159636,
+        "mean_decode_batch": 1.1919366558921547,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 38969
+      },
+      {
+        "machine": 0,
+        "rank": 5,
+        "forwards": 672362,
+        "decode_steps": 167582,
+        "mean_decode_batch": 1.1574274086715757,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 52149
+      },
+      {
+        "machine": 0,
+        "rank": 6,
+        "forwards": 672362,
+        "decode_steps": 159849,
+        "mean_decode_batch": 1.1536950497031573,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 37752
+      },
+      {
+        "machine": 0,
+        "rank": 7,
+        "forwards": 672362,
+        "decode_steps": 148370,
+        "mean_decode_batch": 1.150771719350273,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 59281
+      },
+      {
+        "machine": 1,
+        "rank": 0,
+        "forwards": 639904,
+        "decode_steps": 152009,
+        "mean_decode_batch": 1.1865744791426824,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 52267
+      },
+      {
+        "machine": 1,
+        "rank": 1,
+        "forwards": 639904,
+        "decode_steps": 149223,
+        "mean_decode_batch": 1.1622873149581499,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 35439
+      },
+      {
+        "machine": 1,
+        "rank": 2,
+        "forwards": 639904,
+        "decode_steps": 164203,
+        "mean_decode_batch": 1.1759224861908735,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 45609
+      },
+      {
+        "machine": 1,
+        "rank": 3,
+        "forwards": 639904,
+        "decode_steps": 160417,
+        "mean_decode_batch": 1.1654625133246477,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 47320
+      },
+      {
+        "machine": 1,
+        "rank": 4,
+        "forwards": 639904,
+        "decode_steps": 159214,
+        "mean_decode_batch": 1.2066840855703644,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 47758
+      },
+      {
+        "machine": 1,
+        "rank": 5,
+        "forwards": 639904,
+        "decode_steps": 131125,
+        "mean_decode_batch": 1.141353670162059,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 27102
+      },
+      {
+        "machine": 1,
+        "rank": 6,
+        "forwards": 639904,
+        "decode_steps": 145022,
+        "mean_decode_batch": 1.1807174083932093,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 34592
+      },
+      {
+        "machine": 1,
+        "rank": 7,
+        "forwards": 639904,
+        "decode_steps": 153090,
+        "mean_decode_batch": 1.160448102423411,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 36920
+      },
+      {
+        "machine": 2,
+        "rank": 0,
+        "forwards": 626132,
+        "decode_steps": 129035,
+        "mean_decode_batch": 1.1541364745999148,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 36432
+      },
+      {
+        "machine": 2,
+        "rank": 1,
+        "forwards": 626132,
+        "decode_steps": 140266,
+        "mean_decode_batch": 1.1657707498609784,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 52515
+      },
+      {
+        "machine": 2,
+        "rank": 2,
+        "forwards": 626132,
+        "decode_steps": 138958,
+        "mean_decode_batch": 1.197807970753753,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 34128
+      },
+      {
+        "machine": 2,
+        "rank": 3,
+        "forwards": 626132,
+        "decode_steps": 135770,
+        "mean_decode_batch": 1.1178168962215511,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 21157
+      },
+      {
+        "machine": 2,
+        "rank": 4,
+        "forwards": 626132,
+        "decode_steps": 130296,
+        "mean_decode_batch": 1.1594523239393382,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 42838
+      },
+      {
+        "machine": 2,
+        "rank": 5,
+        "forwards": 626132,
+        "decode_steps": 156053,
+        "mean_decode_batch": 1.139529518817325,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 63406
+      },
+      {
+        "machine": 2,
+        "rank": 6,
+        "forwards": 626132,
+        "decode_steps": 132812,
+        "mean_decode_batch": 1.1876336475619673,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 45651
+      },
+      {
+        "machine": 2,
+        "rank": 7,
+        "forwards": 626132,
+        "decode_steps": 148978,
+        "mean_decode_batch": 1.1562109841721597,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 41371
+      },
+      {
+        "machine": 3,
+        "rank": 0,
+        "forwards": 642606,
+        "decode_steps": 138347,
+        "mean_decode_batch": 1.1194893998424251,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 37621
+      },
+      {
+        "machine": 3,
+        "rank": 1,
+        "forwards": 642606,
+        "decode_steps": 140472,
+        "mean_decode_batch": 1.1675422860071758,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 45517
+      },
+      {
+        "machine": 3,
+        "rank": 2,
+        "forwards": 642606,
+        "decode_steps": 166701,
+        "mean_decode_batch": 1.1451700949604382,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 41573
+      },
+      {
+        "machine": 3,
+        "rank": 3,
+        "forwards": 642606,
+        "decode_steps": 145462,
+        "mean_decode_batch": 1.1622279358182892,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 45358
+      },
+      {
+        "machine": 3,
+        "rank": 4,
+        "forwards": 642606,
+        "decode_steps": 145363,
+        "mean_decode_batch": 1.197973349476827,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 54110
+      },
+      {
+        "machine": 3,
+        "rank": 5,
+        "forwards": 642606,
+        "decode_steps": 168471,
+        "mean_decode_batch": 1.1599088270384814,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 54791
+      },
+      {
+        "machine": 3,
+        "rank": 6,
+        "forwards": 642606,
+        "decode_steps": 154628,
+        "mean_decode_batch": 1.238359158755206,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 49647
+      },
+      {
+        "machine": 3,
+        "rank": 7,
+        "forwards": 642606,
+        "decode_steps": 148943,
+        "mean_decode_batch": 1.1830901754362406,
+        "peak_dram_blocks": 30000,
+        "peak_win_blocks": 59397
+      }
+    ]
+  },
+  "timeseries": {
+    "interval_seconds": 240,
+    "file": "timeseries.csv",
+    "chart": "timeseries.svg"
+  }
+}

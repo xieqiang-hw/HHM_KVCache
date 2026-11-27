@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-label="HHM cache simulation time series, six panels">
+<rect width="1440" height="820" fill="#f4f7fb"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#152a44">
+<text x="35" y="46" font-size="30" font-weight="700">TE2E</text>
+<text x="35" y="74" font-size="16" fill="#526984">Elapsed simulation time · 1 min per window</text>
+<rect x="35" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="56" y="126" font-size="21" font-weight="700">Prefix cache hit rate</text>
+<text x="56" y="154" font-size="13" fill="#526984">%</text>
+<path d="M100 177h20" stroke="#175da2" stroke-width="2.6"/><text x="125" y="181" font-size="12">HHM</text>
+<path d="M165 177h20" stroke="#087f72" stroke-width="2.6"/><text x="190" y="181" font-size="12">ASU | HHM miss</text>
+<path d="M307 177h20" stroke="#7755a4" stroke-width="2.6" stroke-dasharray="6 3"/><text x="332" y="181" font-size="12">Ideal</text>
+<path d="M100 369.00H455 M100.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="100.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M100 326.75H455 M188.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="330.75" text-anchor="end" font-size="12" fill="#526984">25</text>
+<text x="188.75" y="389" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M100 284.50H455 M277.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="288.50" text-anchor="end" font-size="12" fill="#526984">50</text>
+<text x="277.50" y="389" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M100 242.25H455 M366.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="246.25" text-anchor="end" font-size="12" fill="#526984">75</text>
+<text x="366.25" y="389" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M100 200.00H455 M455.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="204.00" text-anchor="end" font-size="12" fill="#526984">100</text>
+<text x="455.00" y="389" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M106.04 238.68L118.11 229.22L130.19 252.73L142.26 237.27L154.34 220.82L166.41 233.36L178.49 221.34L190.56 226.35L202.64 220.15L214.71 220.73L226.79 218.75L238.86 209.85L250.94 208.17L263.01 213.78L275.09 218.99L287.16 214.38L299.24 214.26L311.31 217.26L323.39 217.81L335.46 210.38L347.54 205.63L359.61 205.98L371.69 219.35L383.76 211.72L395.84 216.88L407.92 213.97L419.99 214.00L432.07 219.53L444.14 222.30L452.59 228.81" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106.04 369.00L118.11 369.00L130.19 369.00L142.26 369.00L154.34 369.00L166.41 369.00L178.49 369.00L190.56 369.00L202.64 369.00L214.71 369.00L226.79 369.00L238.86 369.00L250.94 369.00L263.01 369.00L275.09 369.00L287.16 369.00L299.24 369.00L311.31 369.00L323.39 369.00L335.46 369.00L347.54 369.00L359.61 369.00L371.69 369.00L383.76 369.00L395.84 369.00L407.92 369.00L419.99 369.00L432.07 366.90L444.14 367.42L452.59 362.62" fill="none" stroke="#087f72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106.04 233.46L118.11 224.85L130.19 231.25L142.26 218.20L154.34 216.70L166.41 214.99L178.49 211.37L190.56 212.91L202.64 208.31L214.71 208.98L226.79 208.69L238.86 207.56L250.94 207.24L263.01 208.68L275.09 208.66L287.16 209.72L299.24 206.43L311.31 209.76L323.39 206.13L335.46 206.48L347.54 204.27L359.61 205.03L371.69 209.04L383.76 206.96L395.84 205.94L407.92 205.33L419.99 205.82L432.07 207.66L444.14 206.77L452.59 206.43" fill="none" stroke="#7755a4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<rect x="497" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="518" y="126" font-size="21" font-weight="700">Decode batch size</text>
+<text x="518" y="154" font-size="13" fill="#526984">seqs / rank</text>
+<path d="M562 177h20" stroke="#175da2" stroke-width="2.6"/><text x="587" y="181" font-size="12">Mean on active decode steps</text>
+<path d="M562 369.00H917 M562.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="562.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M562 326.75H917 M650.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="330.75" text-anchor="end" font-size="12" fill="#526984">2.5</text>
+<text x="650.75" y="389" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M562 284.50H917 M739.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="288.50" text-anchor="end" font-size="12" fill="#526984">5</text>
+<text x="739.50" y="389" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M562 242.25H917 M828.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="246.25" text-anchor="end" font-size="12" fill="#526984">7.5</text>
+<text x="828.25" y="389" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M562 200.00H917 M917.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="204.00" text-anchor="end" font-size="12" fill="#526984">10</text>
+<text x="917.00" y="389" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M568.04 350.09L580.11 351.48L592.19 351.35L604.26 350.36L616.34 351.18L628.41 350.50L640.49 344.66L652.56 346.28L664.64 340.74L676.71 346.34L688.79 336.91L700.86 346.69L712.94 348.53L725.01 350.40L737.09 337.52L749.16 344.98L761.24 342.22L773.31 345.65L785.39 319.20L797.46 334.52L809.54 344.75L821.61 344.94L833.69 332.63L845.76 328.73L857.84 310.62L869.92 311.09L881.99 297.76L894.07 288.08L906.14 304.92L914.59 222.81" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="959" y="94" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="980" y="126" font-size="21" font-weight="700">Cluster queued prefill</text>
+<text x="980" y="154" font-size="13" fill="#526984">tokens</text>
+<path d="M1024 177h20" stroke="#087f72" stroke-width="2.6"/><text x="1049" y="181" font-size="12">Time-weighted mean</text>
+<path d="M1194 177h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="1219" y="181" font-size="12">Peak</text>
+<path d="M1024 369.00H1379 M1024.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="373.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="1024.00" y="389" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M1024 326.75H1379 M1112.75 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="330.75" text-anchor="end" font-size="12" fill="#526984">1M</text>
+<text x="1112.75" y="389" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M1024 284.50H1379 M1201.50 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="288.50" text-anchor="end" font-size="12" fill="#526984">2M</text>
+<text x="1201.50" y="389" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M1024 242.25H1379 M1290.25 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="246.25" text-anchor="end" font-size="12" fill="#526984">3M</text>
+<text x="1290.25" y="389" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M1024 200.00H1379 M1379.00 200V369" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="204.00" text-anchor="end" font-size="12" fill="#526984">4M</text>
+<text x="1379.00" y="389" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M1030.04 368.94L1042.11 368.90L1054.19 368.60L1066.26 368.53L1078.34 368.21L1090.41 367.00L1102.49 365.19L1114.56 364.89L1126.64 363.73L1138.71 363.57L1150.79 357.80L1162.86 367.46L1174.94 367.56L1187.01 366.04L1199.09 358.99L1211.16 361.47L1223.24 358.06L1235.31 360.06L1247.39 348.65L1259.46 358.30L1271.54 364.79L1283.61 365.58L1295.69 351.42L1307.76 357.19L1319.84 338.28L1331.92 339.54L1343.99 348.39L1356.07 343.27L1368.14 327.48L1376.59 334.06" fill="none" stroke="#087f72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030.04 368.01L1042.11 367.00L1054.19 366.22L1066.26 365.72L1078.34 364.01L1090.41 356.14L1102.49 351.63L1114.56 354.42L1126.64 343.32L1138.71 343.62L1150.79 330.16L1162.86 352.79L1174.94 360.72L1187.01 347.12L1199.09 342.76L1211.16 335.61L1223.24 336.40L1235.31 319.45L1247.39 311.73L1259.46 336.84L1271.54 348.90L1283.61 351.38L1295.69 322.21L1307.76 331.81L1319.84 294.18L1331.92 284.36L1343.99 320.86L1356.07 310.49L1368.14 257.62L1376.59 313.04" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<rect x="35" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="56" y="471" font-size="21" font-weight="700">TTFT</text>
+<text x="56" y="499" font-size="13" fill="#526984">s</text>
+<path d="M100 522h20" stroke="#175da2" stroke-width="2.6"/><text x="125" y="526" font-size="12">Mean</text>
+<path d="M172 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="197" y="526" font-size="12">P90</text>
+<path d="M100 714.00H455 M100.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="100.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M100 671.75H455 M188.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="675.75" text-anchor="end" font-size="12" fill="#526984">10</text>
+<text x="188.75" y="734" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M100 629.50H455 M277.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="633.50" text-anchor="end" font-size="12" fill="#526984">20</text>
+<text x="277.50" y="734" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M100 587.25H455 M366.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="591.25" text-anchor="end" font-size="12" fill="#526984">30</text>
+<text x="366.25" y="734" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M100 545.00H455 M455.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="92" y="549.00" text-anchor="end" font-size="12" fill="#526984">40</text>
+<text x="455.00" y="734" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M106.04 711.14L118.11 710.39L130.19 706.22L142.26 707.79L154.34 708.76L166.41 701.02L178.49 701.74L190.56 700.04L202.64 699.13L214.71 695.86L226.79 695.82L238.86 710.53L250.94 710.32L263.01 706.52L275.09 695.41L287.16 703.59L299.24 700.11L311.31 693.70L323.39 686.03L335.46 703.14L347.54 709.98L359.61 710.12L371.69 693.45L383.76 702.17L395.84 683.62L407.92 688.58L419.99 694.53L432.07 685.73L444.14 692.41L452.59 692.63" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106.04 706.99L118.11 706.08L130.19 692.01L142.26 698.00L154.34 699.34L166.41 672.97L178.49 680.37L190.56 671.76L202.64 670.91L214.71 652.34L226.79 667.22L238.86 704.69L250.94 702.31L263.01 687.67L275.09 665.24L287.16 688.06L299.24 678.73L311.31 649.34L323.39 641.43L335.46 683.86L347.54 702.66L359.61 701.73L371.69 660.95L383.76 686.27L395.84 640.76L407.92 654.36L419.99 666.40L432.07 644.55L444.14 628.95L452.59 668.73" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<rect x="497" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="518" y="471" font-size="21" font-weight="700">TPOT</text>
+<text x="518" y="499" font-size="13" fill="#526984">ms</text>
+<path d="M562 522h20" stroke="#175da2" stroke-width="2.6"/><text x="587" y="526" font-size="12">Mean</text>
+<path d="M634 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="659" y="526" font-size="12">P90</text>
+<path d="M562 714.00H917 M562.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="562.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M562 671.75H917 M650.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="675.75" text-anchor="end" font-size="12" fill="#526984">500</text>
+<text x="650.75" y="734" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M562 629.50H917 M739.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="633.50" text-anchor="end" font-size="12" fill="#526984">1k</text>
+<text x="739.50" y="734" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M562 587.25H917 M828.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="591.25" text-anchor="end" font-size="12" fill="#526984">1.5k</text>
+<text x="828.25" y="734" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M562 545.00H917 M917.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="554" y="549.00" text-anchor="end" font-size="12" fill="#526984">2k</text>
+<text x="917.00" y="734" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M568.04 712.96L580.11 713.03L592.19 712.38L604.26 712.54L616.34 712.17L628.41 707.76L640.49 711.10L652.56 709.08L664.64 706.09L676.71 705.16L688.79 707.10L700.86 712.36L712.94 712.83L725.01 707.54L737.09 705.74L749.16 710.68L761.24 710.12L773.31 695.64L785.39 705.81L797.46 710.18L809.54 712.34L821.61 711.67L833.69 703.85L845.76 705.09L857.84 687.07L869.92 691.49L881.99 700.10L894.07 692.67L906.14 686.89L914.59 696.88" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.04 712.82L580.11 712.88L592.19 711.04L604.26 712.08L616.34 711.18L628.41 693.59L640.49 707.43L652.56 702.54L664.64 691.93L676.71 689.67L688.79 697.05L700.86 711.06L712.94 712.35L725.01 695.25L737.09 692.29L749.16 705.90L761.24 705.11L773.31 655.58L785.39 694.09L797.46 705.57L809.54 711.00L821.61 709.09L833.69 691.53L845.76 691.23L857.84 653.15L869.92 654.57L881.99 681.67L894.07 657.71L906.14 605.84L914.59 687.52" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<rect x="959" y="439" width="444" height="322" rx="14" fill="#fff" stroke="#d7e1ee"/>
+<text x="980" y="471" font-size="21" font-weight="700">TE2E</text>
+<text x="980" y="499" font-size="13" fill="#526984">s</text>
+<path d="M1024 522h20" stroke="#175da2" stroke-width="2.6"/><text x="1049" y="526" font-size="12">Mean</text>
+<path d="M1096 522h20" stroke="#b2542a" stroke-width="2.6" stroke-dasharray="6 3"/><text x="1121" y="526" font-size="12">P90</text>
+<path d="M1024 714.00H1379 M1024.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="718.00" text-anchor="end" font-size="12" fill="#526984">0</text>
+<text x="1024.00" y="734" text-anchor="middle" font-size="12" fill="#526984">0</text>
+<path d="M1024 671.75H1379 M1112.75 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="675.75" text-anchor="end" font-size="12" fill="#526984">20</text>
+<text x="1112.75" y="734" text-anchor="middle" font-size="12" fill="#526984">7.35</text>
+<path d="M1024 629.50H1379 M1201.50 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="633.50" text-anchor="end" font-size="12" fill="#526984">40</text>
+<text x="1201.50" y="734" text-anchor="middle" font-size="12" fill="#526984">14.7</text>
+<path d="M1024 587.25H1379 M1290.25 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="591.25" text-anchor="end" font-size="12" fill="#526984">60</text>
+<text x="1290.25" y="734" text-anchor="middle" font-size="12" fill="#526984">22</text>
+<path d="M1024 545.00H1379 M1379.00 545V714" fill="none" stroke="#e2e9f2"/>
+<text x="1016" y="549.00" text-anchor="end" font-size="12" fill="#526984">80</text>
+<text x="1379.00" y="734" text-anchor="middle" font-size="12" fill="#526984">29.4</text>
+<path d="M1030.04 708.84L1042.11 708.04L1054.19 700.15L1066.26 704.66L1078.34 705.10L1090.41 685.81L1102.49 698.82L1114.56 686.99L1126.64 686.98L1138.71 673.56L1150.79 683.77L1162.86 704.82L1174.94 702.51L1187.01 692.62L1199.09 678.36L1211.16 694.48L1223.24 692.08L1235.31 645.26L1247.39 667.95L1259.46 688.37L1271.54 702.86L1283.61 696.02L1295.69 664.63L1307.76 668.44L1319.84 619.46L1331.92 647.07L1343.99 657.29L1356.07 654.03L1368.14 675.07L1376.59 687.11" fill="none" stroke="#175da2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030.04 702.82L1042.11 703.09L1054.19 685.83L1066.26 693.89L1078.34 692.93L1090.41 626.11L1102.49 674.25L1114.56 652.22L1126.64 647.23L1138.71 599.90L1150.79 651.38L1162.86 694.30L1174.94 685.80L1187.01 634.12L1199.09 642.81L1211.16 670.10L1223.24 667.04L1235.31 565.33L1247.39 607.68L1259.46 653.85L1271.54 690.20L1283.61 683.95L1295.69 603.58L1307.76 582.53L1319.84 553.74L1331.92 573.51L1343.99 560.49L1356.07 601.38L1368.14 584.09L1376.59 678.70" fill="none" stroke="#b2542a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 3"/>
+</g></svg>

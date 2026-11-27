@@ -1,0 +1,17 @@
+2026-11-27 09:28:53,144 Queued serial experiments: 128x_607190_2m, 64x_607190_2m
+2026-11-27 09:28:53,178 Started 128x_607190_2m (PID 13152)
+2026-11-27 10:15:17,536 Continuing 128x (PID 13152); starting 64x in parallel
+2026-11-27 10:15:17,541 Started 64x_607190_2m (PID 28352)
+2026-11-27 10:43:18,255 Failed 128x_607190_2m
+Traceback (most recent call last):
+  File "C:\Users\xieqiang\Documents\ChatGPT\HHM缓存管理仿真\HHM_KVCache\hhm_kvcache_sim\results\swe_2machines\run_batch.py", line 216, in main
+    if returncode:
+        ^^^^^^^^^^
+RuntimeError: Replay exited with status 4294967295
+2026-11-27 11:24:18,834 Failed 64x_607190_2m
+Traceback (most recent call last):
+  File "C:\Users\xieqiang\Documents\ChatGPT\HHM缓存管理仿真\HHM_KVCache\hhm_kvcache_sim\results\swe_2machines\run_batch.py", line 216, in main
+    if returncode:
+        ^^^^^^^^^^
+RuntimeError: Replay exited with status 4294967295
+2026-11-27 11:24:18,840 Batch finished: 0 completed, 2 failed
